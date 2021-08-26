@@ -23,7 +23,7 @@ while (indexes.Count < 3)
     int candidate = rand.Next(insults.Count);
     if (!indexes.Contains(candidate))
     {
-        indexes.push(candidate);
+        indexes.Add(candidate);
     }
 }
 
